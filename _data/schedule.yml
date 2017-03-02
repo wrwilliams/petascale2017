@@ -56,10 +56,44 @@ sessions:
       length: 1800
   - days: monday
     time: 10:30am
+    talks:
   - days: monday
     time: 13:30pm
+    talks:
   - days: monday
     time: 15:00pm
+    talks:
+  - days: tuesday
+    time: 08:30am
+    talks:
+  - days: tuesday
+    time: 10:30am
+    talks:
+  - days: tuesday
+    time: 13:30pm
+    title: Working Group Creation
+  - days: tuesday
+    time: 15:00pm
+    title: Working Groups
+  - days: wednesday
+    time: 08:30am
+    title: Working Groups
+    talks:
+  - days: wednesday
+    time: 10:30am
+    title: Working Groups
+    talks:
+  - days: wednesday
+    time: 13:30pm
+    title: Informal Small Group Discussions
+  - days: thursday
+    time: 08:30am
+    title: Working Group Concluding Sessions and Outbriefs
+    talks:
+  - days: thursday
+    time: 10:30am
+    title: Working Group Outbriefs
+    talks:
   - days: sunday
     time: 12:00pm
     title: Arrival

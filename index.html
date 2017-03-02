@@ -4,10 +4,10 @@ title: About the meeting
 ---
 <p>
 
-The <font color="blue"><b>11th Scalable Tools Workshop</b></font>
+The <span color="blue"><b>11th Scalable Tools Workshop</b></span>
 (formerly the Petascale Tools Workshop and
 CSCADS Workshop on Petascale Tools)
-will be held {{site.data.dates.startdate}}-{{site.data.dates.enddate}} this year at the Granlibakken Resort in Lake Tahoe, California.
+will be held {{site.data.dates.startdate | date: "%A, %B %-d"}}-{{site.data.dates.startdate | date: "%s" | plus: workshop_len |  date: "%A, %B %-d"}} this year at the Granlibakken Resort in Lake Tahoe, California.
 As in previous years, we will begin with presentations of people's work,
 and will then break up into working groups to tackle real technical problems
 for the second half of the workshop.
