@@ -1,0 +1,30 @@
+<tr>
+    <td class="time">
+        {{include.start | date: "%I:%M %P"}} - {{include.end | date: "%I:%M %P"}}<br>
+    </td>
+    <td class="event">
+        <table>
+            <tr>
+                <td class="title">
+				    {{include.talk.title | default: "TBD"}}
+                </td>
+                <td class="abstract">
+                    {% if include.talk.abstract %}
+                    <a onClick="javascript:Abstract(500,300,'assets/abstracts/{{include.talk.abstract}}')" href="javascript:void(0)" target="abstract">
+                        abstract</a>
+                    {% endif %}
+                </td>
+            </tr>
+            <tr>
+                <td class="author">
+                    {{include.talk.author | default: "TBD"}}{% if include.talk.affiliation %}, {{include.talk.affiliation}}{% endif %}
+                </td>
+                <td class="slides">
+                    {% if include.talk.slides %}
+                    <a href="assets/slides/{{include.talk.slides}}">slides</a>
+                    {% endif %}
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>

@@ -1,0 +1,22 @@
+<table class="pdschedule">
+    <thead >
+    <tr class="{{include.session.class}}">
+        <th class="time">{{include.session.time | date: "%I:%M %P"}}</th>
+        {% unless include.session.title %}
+        <div visibility="hidden">{% capture default_title %}Session {% increment session_num %}: TBD{%endcapture%}</div>
+        {% endunless %}
+        <th width="85%">{{include.session.title | default: default_title }}</th>
+    </tr>
+    </thead>
+    {% if include.session.talks %}
+    <tbody>
+    {% assign curtime = include.session.time | date: "%s" %}
+    {% for talk in include.session.talks %}
+    {% assign endtime = curtime | plus: (talk.length) %}
+    {% include talk.html start=curtime end=endtime talk=talk %}
+    {% assign curtime = endtime %}
+    {% endfor %}
+    </tbody>
+    {% endif %}
+</table>
+<br />
