@@ -23,7 +23,6 @@ sessions:
       - monday
       - tuesday
       - wednesday
-      - thursday
     class: sbreak
   - title: Dinner
     time: 18:30pm
