@@ -48,26 +48,104 @@ sessions:
     class: sbreak
   - days: monday
     time: 08:30am
+    title: "Tools Infrastructure #1"
     talks:
-    - title: Dyninst Talk TBD
-      author: Bill Williams
+    - title: Dyninst and MRNet Update
+      author: Bill Williams and Sasha Nicolas
       affiliation: University of Wisconsin
+      length: 1800
+    - title: Continuous Clock Synchronization for Accurate Performance Analysis
+      author: Johannes Ziegenbalg
+      affiliation: TU Dresden
+      length: 1800
+    - title: "SNOflake - A Scalable Network Overlay for Multi-domain HPC Environments"
+      author: Michael Brim
+      affiliation: ORNL
       length: 1800
   - days: monday
     time: 10:30am
+    title: "Performance Tools"
     talks:
+      - title: "Evolving the HPCToolkit"
+        author: John Mellor-Crummey
+        affiliation: Rice University
+        length: 1800
+      - title: "Anticipating Aurora: Valgrind, AVX-512, and Intel HPC Analysis Tools"
+        author: Tatyana Mineeva and Rashawn Knapp
+        affiliation: Intel
+        length: 1800
+      - title: "MPIcere: Towards a Tool for MPI Code Extraction and Replay"
+        author: Allen Malony
+        affiliation: University of Oregon
+        length: 1800
   - days: monday
     time: 13:30pm
+    title: "Analysis Techniques #1"
     talks:
+      - title: Exposing Hidden Performance Optimizations in High Performance GPU Applications
+        author: Benjamin Welton
+        affiliation: UW-Madison
+        length: 1800
+      - title: "Continuous Metric Collection and Assessment - an Ecosystem Approach"
+        author: David Montoya
+        affiliation: LANL
+        length: 1800
+      - title: "Extending Performance Monitoring Profile Guided Optimization (PGO) Capabilities"
+        author: Michael Chynoweth
+        affiliation: Intel
+        length: 1800
   - days: monday
     time: 15:00pm
+    title: "Analysis Techniques #2"
     talks:
+      - title: "TMAM: Top-down Microarchitecture Analysis Method simplifies Cycle Accounting"
+        author: Ahmad Yasin
+        affiliation: Intel
+        length: 1800
+      - title: "Isoefficiency in Practice: Configuring and Understanding the Performance of Task-based Applications"
+        author: Felix Wolf
+        affiliation: TU Darmstadt
+        length: 1800
+      - title: "Is it me, or is it the machine?"
+        author: Judit Gimenez
+        affiliation: Barcelona Supercomputer Center
+        length: 1800
   - days: tuesday
     time: 08:30am
+    title: "Tools Infrastructure #2"
     talks:
+      - title: Autotools for Supercomputers
+        author: Christian Feld
+        affiliation: Juelich Supercomputer Center
+        length: 1800
+      - title: Infrastructure for Ubiquitous Performance Analysis
+        author: David Poliakoff
+        affiliation: LLNL
+        length: 1800
+      - title: Recent Advances in PAPI
+        author: Anthony Danalis
+        affiliation: University of Tennessee
+        length: 1800
   - days: tuesday
     time: 10:30am
+    title: "Tools Infrastructure #3"
     talks:
+      - title: "Flexible Data Aggregation for Performance Profiling"
+        author: "David Boehme"
+        affiliation: "LLNL"
+        length: 1800
+      - title: "The State and Needs of IO Tools"
+        author: "Greg Becker and Elsa Gonsiorowski"
+        affiliation: "LLNL"
+        length: 1800
+  - days: tuesday
+    time: 11:30am
+    title: History
+    talks:
+      - title: HPC in Ancient History
+        author: Marty Itzkowitz
+        affiliation: retired
+        length: 1800
   - days: tuesday
     time: 13:30pm
     title: Working Group Creation
