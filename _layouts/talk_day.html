@@ -16,6 +16,11 @@
     {% include session.html session=session %}
     {% endfor %}
 </div>
+<script>
+    $("a.tooltip").click(function() {
+        $(this).children(".abstract_text").toggleClass("visible");
+    });
+</script>
 
 {% include footer.html %}
 </body>

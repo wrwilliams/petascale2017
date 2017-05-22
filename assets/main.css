@@ -145,7 +145,7 @@ td.abstract, td.slides {
 	display: inline-block;
 }
 
-.tooltip .tooltiptext {
+.abstract_text {
 	visibility: hidden;
 	width: 400px;
 	background-color: white;
@@ -160,10 +160,9 @@ td.abstract, td.slides {
 	right: 105%
 }
 
-.tooltip:hover .tooltiptext {
+.visible {
 	visibility: visible;
 }
-
 
 tr.sbreak {
 	text-align: left;

@@ -8,15 +8,15 @@
                 <td class="title">
 				    {{include.talk.title | default: "TBD"}}
                 </td>
-                <td class="abstract">
+                <td class="abstract_link">
                     {% if include.talk.abstract %}
-                    <div class="tooltip">Abstract
-                        <span class="tooltiptext">
+                    <a class="tooltip">Abstract
+                        <div class="abstract_text">
                             <h3>{{include.talk.title}}</h3>
                             <h3>{{include.talk.author}}</h3>
                             <h4>Abstract</h4>
-                            {{include.talk.abstract}}</span>
-                    </div>
+                            {{include.talk.abstract}}</div>
+                    </a>
                     {% endif %}
                 </td>
             </tr>
