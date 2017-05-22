@@ -147,6 +147,8 @@ td.abstract, td.slides {
 .tooltip {
 	position: relative;
 	display: inline-block;
+	color: #DC143C;
+	text-decoration: underline;
 }
 
 .abstract_text {

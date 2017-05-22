@@ -168,7 +168,7 @@ sessions:
                        key challenges that cycle-accounting faces and how the basic metrics of TMAM
                        address them on Intel Core/Xeon products."
       - title: "Isoefficiency in Practice: Configuring and Understanding the Performance of Task-based Applications"
-        author: Felix Wolf
+        author: Sergei Shudler
         affiliation: TU Darmstadt
         length: 1800
         abstract: "Task-based programming offers an elegant way to express units of
