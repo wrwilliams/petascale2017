@@ -140,6 +140,30 @@ td.abstract, td.slides {
 	font-variant: small-caps;
 }
 
+.tooltip {
+	position: relative;
+	display: inline-block;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 400px;
+	background-color: white;
+	color: black;
+	text-align: left;
+	padding: 5px;
+	border-radius: 0px;
+	border: solid;
+	position: absolute;
+	z-index: 1;
+	top: -5px;
+	right: 105%
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+
 
 tr.sbreak {
 	text-align: left;

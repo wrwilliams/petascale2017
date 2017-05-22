@@ -10,8 +10,13 @@
                 </td>
                 <td class="abstract">
                     {% if include.talk.abstract %}
-                    <a onClick="javascript:Abstract(500,300,'assets/abstracts/{{include.talk.abstract}}')" href="javascript:void(0)" target="abstract">
-                        abstract</a>
+                    <div class="tooltip">Abstract
+                        <span class="tooltiptext">
+                            <h3>{{include.talk.title}}</h3>
+                            <h3>{{include.talk.author}}</h3>
+                            <h4>Abstract</h4>
+                            {{include.talk.abstract}}</span>
+                    </div>
                     {% endif %}
                 </td>
             </tr>
