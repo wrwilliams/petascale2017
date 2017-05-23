@@ -212,7 +212,7 @@ sessions:
     talks:
       - title: Autotools for Supercomputers
         author: Christian Feld
-        affiliation: Juelich Supercomputer Center
+        affiliation: Juelich Supercomputing Center
         length: 1800
         abstract: "Developing portable software is hard. To mitigate this process, leveraging
                        the widely adopted GNU autotools can be beneficial as they significantly
