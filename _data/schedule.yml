@@ -12,9 +12,13 @@ sessions:
     time: 12:00pm
     days:
       - monday
-      - tuesday
       - wednesday
       - thursday
+    class: sbreak
+  - title: Lunch
+    time: 12:30pm
+    days:
+      - tuesday
     class: sbreak
   - title: Reception
     time: 17:30pm
@@ -264,8 +268,16 @@ sessions:
         author: "Greg Becker and Elsa Gonsiorowski"
         affiliation: "LLNL"
         length: 1800
+      - title: "Libabigail update"
+        author: "Ben Woodard"
+        affiliation : "RedHat"
+        length: 900
+      - title: "TBD"
+        author: "William Jalby"
+        affiliation: "University of Versailles"
+        length: 900
   - days: tuesday
-    time: 11:30am
+    time: 12:00pm
     title: History
     talks:
       - title: HPC in Ancient History
