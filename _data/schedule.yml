@@ -272,9 +272,13 @@ sessions:
         author: "Ben Woodard"
         affiliation : "RedHat"
         length: 900
-      - title: "TBD"
+      - title: "Analyzing Data Access Latency"
         author: "William Jalby"
         affiliation: "University of Versailles"
+        abstract: "Data access latency can be a major performance issue and is very often overlooked.
+        Data access bandwidth is considered as a major performance limiter while in some cases, the dominating factor is latency.
+        In this talk we will present a tool for analyzing data latency impact on performance and providing some hints
+        on data access optimization."
         length: 900
   - days: tuesday
     time: 12:00pm
