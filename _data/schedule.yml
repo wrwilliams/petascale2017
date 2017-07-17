@@ -282,10 +282,15 @@ sessions:
         author: "Greg Becker and Elsa Gonsiorowski"
         affiliation: "LLNL"
         length: 1800
-      - title: "Libabigail update"
+      - title: "Update on Intra- and Inter-compiler ABI Compatibility"
         author: "Ben Woodard"
         affiliation : "RedHat"
         length: 900
+        abstract: "Another year later and libabigail’s ABI verification has improved considerably. Intra-compiler
+        verification seems fairly solid and Inter-compiler ABI compatibility has become an area of more interest within
+        Red Hat due to our bootstrapping of the GPGPU toolchain based on LLVM for future products and to facilitate
+        our participation with OpenHPC. This short talk updates last year’s discussion on inter-compiler ABI
+        compatibility. It outlines some of the continuing challenges and a few breakthroughs."
       - title: "Analyzing Data Access Latency"
         author: "William Jalby"
         affiliation: "University of Versailles"
