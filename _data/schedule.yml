@@ -278,6 +278,17 @@ sessions:
         author: "David Boehme"
         affiliation: "LLNL"
         length: 1800
+        abstract: "Many performance analysis tools in the HPC space perform some form of
+                   aggregation to compute summary information of a series of performance
+                   measurements, from summations to more complex operations like
+                   histograms. In current profilers, however, most aspects that control
+                   the aggregation are hard-coded, limiting results to certain
+                   pre-defined profile types (e.g., call-path time profiles).
+                   In this talk, we present Caliper's new aggregation approach, where
+                   users can define custom aggregation schemes in a simple SQL-like
+                   description language. This allows us to create performance profiles
+                   with application-specific data dimensions that would be difficult to
+                   obtain with traditional profiling tools."
       - title: "The State and Needs of IO Tools"
         author: "Greg Becker and Elsa Gonsiorowski"
         affiliation: "LLNL"
