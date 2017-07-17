@@ -26,7 +26,6 @@ sessions:
       - sunday
       - monday
       - tuesday
-      - wednesday
     class: sbreak
   - title: Dinner
     time: 18:30pm
@@ -34,6 +33,15 @@ sessions:
       - sunday
       - monday
       - tuesday
+    class: sbreak
+  - title: Reception
+    time: 18:30pm
+    days:
+      - wednesday
+    class: sbreak
+  - title: Dinner
+    time: 19:30pm
+    days:
       - wednesday
     class: sbreak
   - title: Break
@@ -58,6 +66,12 @@ sessions:
       author: Bill Williams and Sasha Nicolas
       affiliation: University of Wisconsin
       length: 1800
+      abstract: "The Dyninst suite of tools continues to evolve as we face the challenges of
+                    analyzing and instrumenting increasingly complex binaries in exascale environments.
+                    In the past year, we have continued work to improve our support for new architectures (ARM64),
+                    cross-architecture binary analysis, and performance improvements. As we work towards Dyninst 10.0,
+                    we want to share our vision for a better way to expose Dyninst's components to users and make our
+                    APIs easier to use."
     - title: Continuous Clock Synchronization for Accurate Performance Analysis
       author: Johannes Ziegenbalg
       affiliation: TU Dresden
