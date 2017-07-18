@@ -316,8 +316,17 @@ sessions:
     talks:
       - title: HPC in Ancient History
         author: Marty Itzkowitz
-        affiliation: retired
+        affiliation: Software Consultant
         length: 1800
+        abstract: "Long before there was Unix, C, C++, Java, email, internet, ..., there was
+                   still High Performance Computing.  In this talk, I will describe the dominant
+                   machines of that era, the IBM 709x, and the CDC 6600 and 7600.
+
+                   I'll talk about the interesting characteristics of those machines,
+                   the software that ran on them, mass storage of that time, and the software
+                   development environment.  I will show pictures of some of the
+                   remarkable pieces of hardware from that time, and will have a show and tell
+                   of artifacts."
   - days: tuesday
     time: 13:30pm
     title: Working Group Creation
