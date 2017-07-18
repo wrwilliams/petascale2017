@@ -143,10 +143,23 @@ sessions:
     time: 13:30pm
     title: "Analysis Techniques #1"
     talks:
-      - title: Exposing Hidden Performance Optimizations in High Performance GPU Applications
+      - title: "Exposing Hidden Performance Optimizations in High Performance GPU Applications"
         author: Benjamin Welton
         affiliation: UW-Madison
         length: 1800
+        abstract: "The emergence of leadership class systems with nodes containing many-core accelerators, such as GPUs,
+        has the potential to vastly increase the performance of distributed applications. Exploiting the additional
+        parallelism that many- core accelerators offer is fraught with challenges. Developers and existing performance
+        tools focus on a subset of these challenges, primarily the identification of CPU code that may be suited for
+        many-core parallelization and improving the efficiency of existing many-core code. While this focus has
+        resulted in application performance improvements, a significant amount of untapped performance still remains.
+        Untapped performance opportunities take the form of missed unobvious many-core parallelization opportunities as
+        well as inefficiencies in handling interactions with the accelerator, such as memory copies and
+        synchronization. In this work we address three issues: (1) characterize the missed performance opportunities
+        in many-core applications that are not detected by current performance tools and techniques, (2) design
+        detection methods that can be used by performance tools to identify these missed opportunities, and (3) apply
+        these techniques to five large scale scientific applications (Qball, QBox, Hoomd-blue, LAMMPs, and cuIBM),
+        resulting in a reduction of their execution time by 18% and 87%."
       - title: "Continuous Metric Collection and Assessment - an Ecosystem Approach"
         author: David Montoya
         affiliation: LANL
