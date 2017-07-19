@@ -149,7 +149,7 @@ sessions:
         length: 1800
         abstract: "The emergence of leadership class systems with nodes containing many-core accelerators, such as GPUs,
         has the potential to vastly increase the performance of distributed applications. Exploiting the additional
-        parallelism that many- core accelerators offer is fraught with challenges. Developers and existing performance
+        parallelism that many-core accelerators offer is fraught with challenges. Developers and existing performance
         tools focus on a subset of these challenges, primarily the identification of CPU code that may be suited for
         many-core parallelization and improving the efficiency of existing many-core code. While this focus has
         resulted in application performance improvements, a significant amount of untapped performance still remains.
@@ -164,6 +164,12 @@ sessions:
         author: David Montoya
         affiliation: LANL
         length: 1800
+        abstract: "We have traditionally assessed performance at the application internals and its immediate resources.
+        With the complexities of increasing scale and unique architectures, performance has taken a more holistic
+        perspective. How the computational environment is designed, its constraints, and ability to balance resource
+        use is a key aspect in performance. There are varying perspectives of performance depending on differing
+        stakeholders. This talk will review many of the drivers, approaches, and challenges of an integrated performance
+        environment."
       - title: "Extending Performance Monitoring Profile Guided Optimization (PGO) Capabilities"
         author: Michael Chynoweth
         affiliation: Intel
@@ -283,6 +289,14 @@ sessions:
         author: Anthony Danalis
         affiliation: University of Tennessee
         length: 1800
+        abstract: "PAPI has been a layer that provides a consistent interface to hardware performance counters for
+        almost two decades. This talk will outline the newest developments and the future directions of PAPI.  Energy
+        and power, being important optimization parameters as we move to larger compute systems, have been one of the
+        foci of PAPI development. Another recent development within PAPI has been the effort to develop means to
+        categorize and understand the numerous counters that exist in modern hardware platforms. Lastly, this talk will
+        introduce PAPI Software-defined events and explain our effort to extend PAPI’s role as a standardizing layer for
+        monitoring performance of entire applications, including their interactions with external libraries, runtimes
+        and other software layers."
   - days: tuesday
     time: 10:30am
     title: "Tools Infrastructure #3"
