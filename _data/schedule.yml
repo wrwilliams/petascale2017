@@ -338,6 +338,23 @@ sessions:
         author: "Greg Becker and Elsa Gonsiorowski"
         affiliation: "LLNL"
         length: 1800
+        abstract: "I/O has historically been an afterthought in application development and performance analysis. As
+                   processing power increases and accelerators increase performance, Amdahl’s law increasingly points
+                   to I/O as an opportunity for performance optimization. Unfortunately, the tool framework for analysis
+                   of I/O performance is not as robust as that for computational performance. Tools that exist, such as
+                   IOR and Darshan, target a very small slice of I/O performance. No tool exists which measures the
+                   real-world I/O performance of an application running under real workloads, and tools that create
+                   artificial I/O to model performance do not account for network contention.
+
+                   Additionally complicating this space is the introduction of hierarchical storage into the I/O space.
+                   With the increased prevalence of burst buffers and other forms of hierarchical storage, we can
+                   expect to find new answers to historically well-studied problems such as optimal checkpointing
+                   frequency.
+
+                   As user need for I/O performance increases, there will need to be a paradigm shift in the performance
+                   tools community to including I/O in our understanding of application performance. Bringing the
+                   insights of the scalable tools community to I/O performance tools will increase our total
+                   understanding of performance in the HPC sphere."
       - title: "Update on Intra- and Inter-compiler ABI Compatibility"
         author: "Ben Woodard"
         affiliation : "RedHat"
