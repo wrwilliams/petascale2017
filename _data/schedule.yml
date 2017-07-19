@@ -139,6 +139,24 @@ sessions:
         author: Allen Malony
         affiliation: University of Oregon
         length: 1800
+        abstract: "The increasing complexity in HPC applications brought on by more
+                   sophisticated problems and solution approaches will require parallel
+                   software to address challenges associated with both greater scale and
+                   system configuration.  In this context, it is important to monitor and
+                   understand the behavior of parallel programs under diverse usage
+                   scenarios so as to better engineer their performance, especially as
+                   problem sizes and concurrency grows.  Generally, this requires running
+                   the full program on the target machine and measuring its performance,
+                   which can be difficult and costly at large core counts.  We introduce
+                   the notion of MPI Codelets as a way to circumvent scalability issues
+                   when instrumenting MPI applications in a tool agnostic manner.  MPI
+                   Codelets isolate specific windows of interest inside our application.
+                   With an MPI Codelet we can measure or debug a specific region of
+                   interest across all or a single MPI rank without having to execute the
+                   whole application.  Working with codelets offers more scalable and
+                   fine-grained analysis of programs at scale.  A method based on selective
+                   checkpointing and replay in MPI context is presented and applied to
+                   various leading performance tools."
   - days: monday
     time: 13:30pm
     title: "Analysis Techniques #1"
