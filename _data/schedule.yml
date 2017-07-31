@@ -53,9 +53,12 @@ sessions:
       - thursday
     class: sbreak
   - title: Break
-    time: 14:30pm
+    time: 15:00pm
     days:
       - monday
+  - title: Break
+    time: 14:30pm
+    days:
       - tuesday
     class: sbreak
   - days: monday
@@ -203,7 +206,7 @@ sessions:
                        apply the right compiler optimizations for the execution characteristics of
                        each application."
   - days: monday
-    time: 15:00pm
+    time: 15:30pm
     title: "Analysis Techniques #2"
     talks:
       - title: "TMAM: Top-down Microarchitecture Analysis Method simplifies Cycle Accounting"
@@ -315,6 +318,11 @@ sessions:
         introduce PAPI Software-defined events and explain our effort to extend PAPI’s role as a standardizing layer for
         monitoring performance of entire applications, including their interactions with external libraries, runtimes
         and other software layers."
+      - title: TBD
+        author: Doug Pase
+        affiliation: Sandia National Labs
+        length: 900
+
   - days: tuesday
     time: 10:30am
     title: "Tools Infrastructure #3"

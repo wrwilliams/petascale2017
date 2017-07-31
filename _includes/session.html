@@ -1,11 +1,14 @@
+<div class="session_div" time="{{include.session.time | date: %I:%M %P"}}">
 <table class="pdschedule">
     <thead >
     <tr class="{{include.session.class}}">
-        <th class="time">{{include.session.time | date: "%I:%M %P"}}</th>
-        {% unless include.session.title %}
-        <div visibility="hidden">{% capture default_title %}Session {% increment session_num %}: TBD{%endcapture%}</div>
-        {% endunless %}
-        <th width="85%">{{include.session.title | default: default_title }}</th>
+        <th class="time">{{include.session.time | date: "%l:%M %P"}}
+            {% unless include.session.title %}
+            <div visibility="hidden" height="0px">{% capture default_title %}Session {% increment session_num %}: TBD{%endcapture%}</div>
+            {% endunless %}
+        </th>
+        <th width="85%">{{include.session.title | default: default_title }}
+        </th>
     </tr>
     </thead>
     {% if include.session.talks %}
@@ -19,4 +22,6 @@
     </tbody>
     {% endif %}
 </table>
+</div>
 <br />
+

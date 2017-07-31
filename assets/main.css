@@ -113,11 +113,17 @@ table.pdschedule td, table.pdschedule th {
 	border: 1px solid #87CEFA;
 	margin: 10px;
 }
-.time {
+th.time, tr.time, td.time {
 	width: 18%;
 	vertical-align: middle;
 	white-space: nowrap;
 }
+div.time {
+	visibility: hidden;
+	width: 0%;
+	height: 0%;
+}
+
 td.event {
 	vertical-align: top;
 }
