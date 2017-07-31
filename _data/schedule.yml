@@ -318,10 +318,19 @@ sessions:
         introduce PAPI Software-defined events and explain our effort to extend PAPI’s role as a standardizing layer for
         monitoring performance of entire applications, including their interactions with external libraries, runtimes
         and other software layers."
-      - title: TBD
-        author: Doug Pase
-        affiliation: Sandia National Labs
+      - title: "State Of The Performance Tools (A Personal Opinion)"
+        author: "Doug Pase"
+        affiliation: "Sandia National Labs"
         length: 900
+        abstract: "At Sandia, it isn't the unique challenges of exascale computing that are getting in the way of tool
+        use. It is the mundane issues of reliability, robustness, being able to work with large scale applications, run
+        on large scale systems under real life environments, etc. Tools are, for the most part, light enough, fast
+        enough, and manage data well enough for very large core count applications. In the author's experience, where
+        they fail is being able to run at all on production applications in production environments. Failures often
+        occur when the application is large (in terms of LOC), or when production operating systems, compilers,
+        languages, and libraries (e.g., Kokkos, Trilinos, or MKL) are used. It's not sufficient that a tool work for
+        small applications on 100,000 cores if it doesn't also work on real codes running with systems, libraries,
+        compilers and languages found in production environments."
 
   - days: tuesday
     time: 10:30am
