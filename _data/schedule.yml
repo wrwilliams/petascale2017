@@ -91,6 +91,7 @@ sessions:
                      clock synchronization. In order to improve time measurement accuracy we
                      implemented a method for continuous clock synchronization. In this talk we
                      share our experiences and draw conclusions for tool development. "
+        slides: "Praesentation_16zu10.pptx"
     - title: "SNOflake - A Scalable Network Overlay for Multi-domain HPC Environments"
       author: Michael Brim
       affiliation: ORNL
