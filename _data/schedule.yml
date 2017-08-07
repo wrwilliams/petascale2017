@@ -151,6 +151,7 @@ sessions:
         languages, and libraries (e.g., Kokkos, Trilinos, or MKL) are used. It's not sufficient that a tool work for
         small applications on 100,000 cores if it doesn't also work on real codes running with systems, libraries,
         compilers and languages found in production environments."
+        slides: "Doug Pase Scalable Tools Workshop 2017.pdf"
                        
 
   - days: monday
