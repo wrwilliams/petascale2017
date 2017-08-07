@@ -138,28 +138,21 @@ sessions:
                        extensions.
 
                        We close with a few brief updates regarding other on-going work."
-      - title: "MPIcere: Towards a Tool for MPI Code Extraction and Replay"
-        author: Allen Malony
-        affiliation: University of Oregon
+      - title: "State Of The Performance Tools (A Personal Opinion)"
+        author: "Doug Pase"
+        affiliation: "Sandia National Labs"
         length: 1800
-        abstract: "The increasing complexity in HPC applications brought on by more
-                   sophisticated problems and solution approaches will require parallel
-                   software to address challenges associated with both greater scale and
-                   system configuration.  In this context, it is important to monitor and
-                   understand the behavior of parallel programs under diverse usage
-                   scenarios so as to better engineer their performance, especially as
-                   problem sizes and concurrency grows.  Generally, this requires running
-                   the full program on the target machine and measuring its performance,
-                   which can be difficult and costly at large core counts.  We introduce
-                   the notion of MPI Codelets as a way to circumvent scalability issues
-                   when instrumenting MPI applications in a tool agnostic manner.  MPI
-                   Codelets isolate specific windows of interest inside our application.
-                   With an MPI Codelet we can measure or debug a specific region of
-                   interest across all or a single MPI rank without having to execute the
-                   whole application.  Working with codelets offers more scalable and
-                   fine-grained analysis of programs at scale.  A method based on selective
-                   checkpointing and replay in MPI context is presented and applied to
-                   various leading performance tools."
+        abstract: "At Sandia, it isn't the unique challenges of exascale computing that are getting in the way of tool
+        use. It is the mundane issues of reliability, robustness, being able to work with large scale applications, run
+        on large scale systems under real life environments, etc. Tools are, for the most part, light enough, fast
+        enough, and manage data well enough for very large core count applications. In the author's experience, where
+        they fail is being able to run at all on production applications in production environments. Failures often
+        occur when the application is large (in terms of LOC), or when production operating systems, compilers,
+        languages, and libraries (e.g., Kokkos, Trilinos, or MKL) are used. It's not sufficient that a tool work for
+        small applications on 100,000 cores if it doesn't also work on real codes running with systems, libraries,
+        compilers and languages found in production environments."
+                       
+
   - days: monday
     time: 13:30pm
     title: "Analysis Techniques #1"
@@ -318,20 +311,6 @@ sessions:
         introduce PAPI Software-defined events and explain our effort to extend PAPI’s role as a standardizing layer for
         monitoring performance of entire applications, including their interactions with external libraries, runtimes
         and other software layers."
-      - title: "State Of The Performance Tools (A Personal Opinion)"
-        author: "Doug Pase"
-        affiliation: "Sandia National Labs"
-        length: 900
-        abstract: "At Sandia, it isn't the unique challenges of exascale computing that are getting in the way of tool
-        use. It is the mundane issues of reliability, robustness, being able to work with large scale applications, run
-        on large scale systems under real life environments, etc. Tools are, for the most part, light enough, fast
-        enough, and manage data well enough for very large core count applications. In the author's experience, where
-        they fail is being able to run at all on production applications in production environments. Failures often
-        occur when the application is large (in terms of LOC), or when production operating systems, compilers,
-        languages, and libraries (e.g., Kokkos, Trilinos, or MKL) are used. It's not sufficient that a tool work for
-        small applications on 100,000 cores if it doesn't also work on real codes running with systems, libraries,
-        compilers and languages found in production environments."
-
   - days: tuesday
     time: 10:30am
     title: "Tools Infrastructure #3"
