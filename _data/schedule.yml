@@ -385,6 +385,7 @@ sessions:
                    development environment.  I will show pictures of some of the
                    remarkable pieces of hardware from that time, and will have a show and tell
                    of artifacts."
+        slides: "HPC.history.pdf"
   - days: tuesday
     time: 13:30pm
     title: Working Group Creation
