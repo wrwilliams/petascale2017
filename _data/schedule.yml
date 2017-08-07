@@ -105,6 +105,7 @@ sessions:
                      SNOflake design goals and architecture, and then discuss two ORNL software
                      technologies, MELT and ExCDS, that leverage SNOflake for scalable end-to-end
                      monitoring and management of HPC storage I/O."
+      slides: "snoflake-scalabletools-2017.pdf"
   - days: monday
     time: 10:30am
     title: "Performance Tools"
