@@ -75,6 +75,7 @@ sessions:
                     cross-architecture binary analysis, and performance improvements. As we work towards Dyninst 10.0,
                     we want to share our vision for a better way to expose Dyninst's components to users and make our
                     APIs easier to use."
+      slides: "dyninst9_3.pptx"
     - title: Continuous Clock Synchronization for Accurate Performance Analysis
       author: Johannes Ziegenbalg
       affiliation: TU Dresden
