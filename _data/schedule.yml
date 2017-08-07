@@ -115,29 +115,31 @@ sessions:
         author: Tatyana Mineeva and Rashawn Knapp
         affiliation: Intel
         length: 1800
-        abstract: "   In collaboration with performance tool developers, our team enables
-                       open-source HPC analyzers and measurement tools for CORAL
-                       (Collaboration of Oak Ridge, Argonne, and Livermore) supercomputer
-                       installations, Theta and Aurora, at Argonne National Laboratory.
+        abstract: "    In collaboration with performance tool developers, our team enables 
+                       open-source HPC analyzers and measurement tools for CORAL 
+                       (Collaboration of Oak Ridge, Argonne, and Livermore) supercomputer 
+                       installations at Argonne National Laboratory.
+ 
+                       We present our progress on adding support for AVX-512 vector instructions 
+                       to Valgrind, a dynamic instrumentation framework, widely known for its 
+                       memcheck tool. This support will allow Valgrind to instrument
+                       binaries containing AVX-512 instructions on the most current Intel(tm) Xeon 
+                       Phi processor, codenamed Knights Landing (KNL), the recent Xeon Skylake 
+                       server platforms, and Aurora, the successor to Argonne’s KNL based Theta.  
+                       We will highlight the notable features of the AVX-512 extensions, and our 
+                       contributions to date.  
+                       
+                       Additionally, we provide an HPC focused overview of capabilities available 
+                       with Intel performance analysis tools. Recently, a number of HPC-oriented 
+                       features, including a roofline model and vectorization advice, have been 
+                       added to Intel tools. We will show case several examples of using some of 
+                       features on a single KNL node and on a modest-sized KNL cluster.  
+                       
+                       Most of Intel’s performance tools are available at no cost to qualified open 
+                       source contributors, students, and educators for non-commercial use."
+ 
 
-                       We provide an HPC focused overview of capabilities available with
-                       Intel performance analysis tools. Recently, a number of HPC-oriented
-                       features, including a roofline model and vectorization advice, have
-                       been added to Intel tools. We will show demonstrations of the analysis
-                       made by Intel VTune Amplifier XE, Intel Advisor, and Intel Trace Analyzer
-                       and Collector, on a single KNL node and on a modest-sized KNL cluster.
-                       Many of these tools are available at no cost to qualified open source
-                       contributors, students, and educators for non-commercial use.
-
-                       We follow up with our progress on adding support of AVX-512 instructions
-                       to Valgrind, a dynamic instrumentation framework, widely known for its
-                       memcheck tool. AVX-512 instruction support will allow Valgrind to function
-
-                       on Aurora, which is the 3rd Generation Intel(tm) Xeon Phi processor, codenamed
-                       Knights Hill (KNH). We will highlight the notable features of the AVX-512
-                       extensions.
-
-                       We close with a few brief updates regarding other on-going work."
+"
       - title: "State Of The Performance Tools (A Personal Opinion)"
         author: "Doug Pase"
         affiliation: "Sandia National Labs"
