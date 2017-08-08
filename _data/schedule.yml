@@ -114,6 +114,7 @@ sessions:
         author: John Mellor-Crummey
         affiliation: Rice University
         length: 1800
+        slides: "hpctoolkit-scalable-tools-2017-08.pdf"
       - title: "Anticipating Aurora: Valgrind, AVX-512, and Intel HPC Analysis Tools"
         author: Tatyana Mineeva and Rashawn Knapp
         affiliation: Intel
@@ -140,6 +141,7 @@ sessions:
                        
                        Most of Intel’s performance tools are available at no cost to qualified open 
                        source contributors, students, and educators for non-commercial use."
+        slides: "2017_0807_STW-17_rashawn.knapp.v2.final.post4archive.pptx"
       - title: "State Of The Performance Tools (A Personal Opinion)"
         author: "Doug Pase"
         affiliation: "Sandia National Labs"
@@ -187,6 +189,7 @@ sessions:
         use is a key aspect in performance. There are varying perspectives of performance depending on differing
         stakeholders. This talk will review many of the drivers, approaches, and challenges of an integrated performance
         environment."
+        slides: "Scalable_Tools_0817.pdf"
       - title: "Extending Performance Monitoring Profile Guided Optimization (PGO) Capabilities"
         author: Michael Chynoweth
         affiliation: Intel
@@ -260,6 +263,7 @@ sessions:
                        I have observed on the achieved performance with the same source code, as well
                        as the ability of our performance tools to pinpoint what is causing the loss
                        of performance."
+        slides: "judit_tahoe17.pdf"
   - days: tuesday
     time: 08:30am
     title: "Tools Infrastructure #2"
