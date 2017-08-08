@@ -368,6 +368,7 @@ sessions:
         Red Hat due to our bootstrapping of the GPGPU toolchain based on LLVM for future products and to facilitate
         our participation with OpenHPC. This short talk updates last year’s discussion on inter-compiler ABI
         compatibility. It outlines some of the continuing challenges and a few breakthroughs."
+        slides: "Libabigail 2017.pdf"
       - title: "Analyzing Data Access Latency"
         author: "William Jalby"
         affiliation: "University of Versailles"
