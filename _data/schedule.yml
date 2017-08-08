@@ -179,6 +179,7 @@ sessions:
         detection methods that can be used by performance tools to identify these missed opportunities, and (3) apply
         these techniques to five large scale scientific applications (Qball, QBox, Hoomd-blue, LAMMPs, and cuIBM),
         resulting in a reduction of their execution time by 18% and 87%."
+        slides: "welton_perf_workshop_2017_final.pdf"
       - title: "Continuous Metric Collection and Assessment - an Ecosystem Approach"
         author: David Montoya
         affiliation: LANL
