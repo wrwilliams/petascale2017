@@ -292,6 +292,7 @@ sessions:
                        at the same time preventing from common pitfalls, particularly with regard
                        to cross-compilation. AfS is actively maintained and successfully used by
                        several projects running on a wide variety of supercomputers."
+        slides: "AutotoolsForSupercomputers_LakeTahoe17.pdf"
       - title: Infrastructure for Ubiquitous Performance Analysis
         author: David Poliakoff
         affiliation: LLNL
