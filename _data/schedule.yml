@@ -205,6 +205,7 @@ sessions:
                        determined through use of ~100 performance monitoring events and automatically
                        apply the right compiler optimizations for the execution characteristics of
                        each application."
+        slides: "2017.08.07_ScalableToolsConference_MChynoweth_Final_pdf.pdf"
   - days: monday
     time: 15:30pm
     title: "Analysis Techniques #2"
