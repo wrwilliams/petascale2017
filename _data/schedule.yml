@@ -361,6 +361,7 @@ sessions:
                    tools community to including I/O in our understanding of application performance. Bringing the
                    insights of the scalable tools community to I/O performance tools will increase our total
                    understanding of performance in the HPC sphere."
+        slides: "gonsiorowski-io-tools.pdf"
       - title: "Update on Intra- and Inter-compiler ABI Compatibility"
         author: "Ben Woodard"
         affiliation : "RedHat"
