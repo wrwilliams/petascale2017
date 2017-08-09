@@ -1,6 +1,6 @@
 <tr>
     <td class="time">
-        {{include.start | date: "%l:%M %P"}} - {{include.end | date: "%l:%M %P"}}<br>
+        {{include.start | date: "%l:%M %P"}} {% if include.start != include.end %} - {{include.end | date: "%l:%M %P"}}{% endif %}<br>
     </td>
     <td class="event">
         <table>
