@@ -413,17 +413,21 @@ sessions:
     title: Working Groups
     talks:
         - title: DWARF infrastructure
+          author: "Bay (Back)"
         - title: Expanding the scope of FDO
+          author: "Bay (Middle)"
         - title: I/O Working Group
+          author: "Bay (Front)"
         - title: Tool Workflows
-          author: "Bay (Front)"       
+          author: "Lake"       
   - days: wednesday
     time: 10:30am
     title: Working Groups
     talks:
         - title: Clang plugin development
-          author: "Bay (Front)"
+          author: "Bay"
         - title: Hardware Counters
+          author: "Lake"
   - days: wednesday
     time: 13:30pm
     title: Informal Small Group Discussions
@@ -432,8 +436,9 @@ sessions:
     title: Working Group Concluding Sessions and Outbriefs
     talks:
         - title: Tools from a User's Point of View
+          author: "Lake"
         - title: Tools for Understanding OS and GPU Bottlenecks
-          author: "Bay (Front)"       
+          author: "Bay"       
   - days: thursday
     time: 10:30am
     title: Working Group Outbriefs
