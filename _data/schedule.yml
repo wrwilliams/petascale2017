@@ -403,14 +403,25 @@ sessions:
   - days: tuesday
     time: 15:00pm
     title: Working Groups
+    talks:
+        - title: Tools for ARM
+        - title: Machine Learning
+        - title: Vendor-Neutral API for OMPD
+        - title: Binary Analysis of GPU code
   - days: wednesday
     time: 08:30am
     title: Working Groups
     talks:
+        - title: DWARF infrastructure
+        - title: Expanding the scope of FDO
+        - title: I/O Working Group
+        - title: Tool Workflows        
   - days: wednesday
     time: 10:30am
     title: Working Groups
     talks:
+        - title: Clang plugin development
+        - title: Hardware Counters
   - days: wednesday
     time: 13:30pm
     title: Informal Small Group Discussions
@@ -418,6 +429,8 @@ sessions:
     time: 08:30am
     title: Working Group Concluding Sessions and Outbriefs
     talks:
+        - title: Tools from a User's Point of View
+        - title: Tools for Understanding OS and GPU Bottlenecks
   - days: thursday
     time: 10:30am
     title: Working Group Outbriefs
