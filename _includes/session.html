@@ -13,7 +13,7 @@
     </thead>
     {% if include.session.talks %}
     <tbody>
-    {% assign curtime = include.session.time | date: "%s" %}
+    {% assign curtime = include.session.time | date: "%s" | plus: 0 %}
     {% for talk in include.session.talks %}
     {% assign endtime = curtime | plus: (talk.length) %}
     {% include talk.html start=curtime end=endtime talk=talk %}
