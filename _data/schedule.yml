@@ -249,6 +249,7 @@ sessions:
                        and in particular, it helps to differentiate between resource contention and
                        structural conflicts related to task dependencies or scheduling. The insights
                        gained can be used to co-design programs and shared system resources."
+        slides: "shudler_scalable_tools.pdf.flv"
       - title: "Is it me, or is it the machine?"
         author: Judit Gimenez
         affiliation: Barcelona Supercomputer Center
@@ -380,6 +381,7 @@ sessions:
         In this talk we will present a tool for analyzing data latency impact on performance and providing some hints
         on data access optimization."
         length: 900
+        slides: "SWT2017_WJA_data_latency_access_V9.pdf"
   - days: tuesday
     time: 12:00pm
     title: History
@@ -405,16 +407,19 @@ sessions:
     time: 15:00pm
     title: Working Groups
     talks:
-        - title: Tools for ARM
+        - title: Tools for 
+          slides: "ARM_working_group.pptx"
         - title: Machine Learning
         - title: Vendor-Neutral API for OMPD
         - title: Binary Analysis of GPU code
+          
   - days: wednesday
     time: 08:30am
     title: Working Groups
     talks:
         - title: DWARF infrastructure
           author: "Bay (Back)"
+          slides: "DWARF.pdf"
         - title: Expanding the scope of FDO
           author: "Bay (Middle)"
         - title: I/O Working Group
