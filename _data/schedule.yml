@@ -407,7 +407,7 @@ sessions:
     time: 15:00pm
     title: Working Groups
     talks:
-        - title: Tools for 
+        - title: Tools for ARM
           slides: "ARM_working_group.pptx"
         - title: Machine Learning
         - title: Vendor-Neutral API for OMPD
