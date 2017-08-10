@@ -439,6 +439,7 @@ sessions:
     title: Informal Small Group Discussions
     talks:
         - title: "Mt. Rose Summit"
+          author: ""
           slides: "2017-08-09-MtRoseHike.JPG"
   - days: thursday
     time: 08:30am
