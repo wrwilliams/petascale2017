@@ -410,7 +410,9 @@ sessions:
         - title: Tools for ARM
           slides: "ARM_working_group.pptx"
         - title: Machine Learning
+          slides: "ML-Session.pdf"
         - title: Vendor-Neutral API for OMPD
+          slides: "OMPD - STWS.pptx"
         - title: Binary Analysis of GPU code
           
   - days: wednesday
@@ -432,6 +434,7 @@ sessions:
     talks:
         - title: Clang plugin development
           author: "Bay"
+          slides: "2017-08 Clang Plugin Notes.pptx"
         - title: Hardware Counters
           author: "Lake"
   - days: wednesday
